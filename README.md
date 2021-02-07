@@ -16,17 +16,17 @@
 
 - - -
 
-For this assignment, I will take on the role of a new developer at a small bank. My mission, should I choose to accept it, will be to set up a testnet blockchain for my organization.
+For this assignment, I will take on the role of a new developer at a small bank. My mission, will be to set up a testnet blockchain for this organization.
 
-To do this, I will create and submit four deliverables:
+To do this, we will create and submit four deliverables:
 
-* Set up my custom testnet blockchain.
+* Set up our custom testnet blockchain.
 
 * Send a test transaction.
 
 * Create a repository.
 
-* Write instructions on how to use the chain for the rest of my team.
+* Write instructions on how to use the chain for the rest of our team.
 
 <details><summary>Background</summary>
 ## Background
@@ -34,12 +34,12 @@ To do this, I will create and submit four deliverables:
 I have just landed a new job at ZBank, a small, innovative bank that is interested in exploring what
 blockchain technology can do for them and their customers.
 
-My first project at the company is to set up a private testnet that I and my team of developers
+My first project at the company is to set up a private testnet that my team of developers and I
 can use to explore potentials for blockchain at ZBank.
 
 I have decided on setting up a testnet because:
 
-There is no real money involved, which will give my team of developers the freedom to experiment.
+There is no real money involved, which will give our team of developers the freedom to experiment.
 
 Testnets allows for offline development.
 
@@ -53,7 +53,7 @@ In order to set up a testnet, I will need to use the following skills/tools we l
 
 Tokens inherently have no value here, so we will provide pre-configured accounts and nodes for easy setup.
 
-After creating the custom development chain, I create documentation for others on how to start it using the pre-configured
+After creating the custom development chain, we create documentation for others on how to start it using the pre-configured
 nodes and accounts. 
 
 </details>
@@ -62,7 +62,7 @@ nodes and accounts.
 
 # 1. Blockchain Installation Guide
 ​
- I will use some software tools and utilities to interact with blockchains and to create my very own blockchain from scratch.
+ I will use some software tools and utilities to interact with blockchains and to create our very own blockchain from scratch.
 ​​
 **Important Note:** Windows users **MUST** use `git-bash` and not the default Windows command prompt when I are requested to open the terminal window to execute commands.
 ​
@@ -74,10 +74,10 @@ For this example, we will use MyCrypto Desktop App to manage ethereum wallets an
 ​
 To install MyCrypto Desktop App, please follow the next steps:
 ​
-1. Open my browser and navigate to the downloads page at https://download.mycrypto.com/.
+1. Open your browser and navigate to the downloads page at https://download.mycrypto.com/.
 ​
 
-2. Depending on my operating system, you will be redirected to the corresponding application installer. If you are not correctly redirected, choose the appropriate installer for my operating system.
+2. Depending on your operating system, you will be redirected to the corresponding application installer. If you are not correctly redirected, choose the appropriate installer for your operating system.
 ​
 3. Once you download the installer, open the file, and follow the installation wizard. 
 ​
@@ -90,7 +90,7 @@ General Notes:
 ​
 Running in OS X:
 ​
-* The first time I execute MyCrypto, I will see the following warning message, I can safely click on the "Open" button to start the application.
+* The first time you execute MyCrypto, you will see the following warning message, you can safely click on the "Open" button to start the application.
 ​
 ​
 ## Installing Go Ethereum Tools
@@ -105,25 +105,25 @@ Despite there are installers for OS X and Windows, we will use the application e
 ​
 To install the Go Ethereum Tools, please follow the next steps:
 ​
-1. Open my browser and navigate to the Go Ethereum Tools download page at https://geth.ethereum.org/downloads/
+1. Open your browser and navigate to the Go Ethereum Tools download page at https://geth.ethereum.org/downloads/
 ​
-2. Scroll down to the "Stable Releases" section and proceed depending on my operating system.
+2. Scroll down to the "Stable Releases" section and proceed depending on your operating system.
 ​
  2.1. Installing in OS X.
  Click on the **"Geth & Tools 1.9.7"** to download the applications bundle archive.
 ​
  2.2. Installing in Windows.
 
-  - You need to know if I are running a `32 bit` or `64 bit` version of Microsoft Windows, if I are not sure about that, I can check my version following [these steps](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running).
+  - You need to know if I are running a `32 bit` or `64 bit` version of Microsoft Windows, if you are not sure about that, you can check your version following [these steps](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running).
 
 
- -  Depending on my Windows version, I should download the `32 bit` or `64 bit` version of the Go Ethereum Tools.
+ -  Depending on your Windows version, you should download the `32 bit` or `64 bit` version of the Go Ethereum Tools.
 ​
-3. After downloading the tools archive, open my "Downloads" folder, and I will find a file named `geth-alltools-darwin-amd64-1.9.7-a718daa6.tar.gz` in OS X, and a file called `geth-alltools-windows-amd64-1.9.7-a718daa6.zip` in Windows. Note that the last numbers in the filename could vary depending on the last built available.​
+3. After downloading the tools archive, open your "Downloads" folder, and you will find a file named `geth-alltools-darwin-amd64-1.9.7-a718daa6.tar.gz` in OS X, and a file called `geth-alltools-windows-amd64-1.9.7-a718daa6.zip` in Windows. Note that the last numbers in the filename could vary depending on the last built available.​
 
 4. Decompress the archive in the location of my preference in my computer's hard drive, and rename the containing folder as `Blockchain-Tools`. We recommend using a location that can be easily accessed from the terminal window like the user's home directory.
 
-5. You have finished the installation process; I will use these tools to create my very own blockchain!
+5. You have finished the installation process; You will use these tools to create my very own blockchain!
 ​
 
 # 2. Instructions for POA Blockchain Transactions 
@@ -139,7 +139,12 @@ mkdir node1 node2
 ./geth account new --datadir node1
 ./geth account new --datadir node2
 ```
+
+![node1](Images/node1.png)
  
+ 
+![node2](Images/node2.png)
+
 
 3. password "node1" (repeat)
 ​
