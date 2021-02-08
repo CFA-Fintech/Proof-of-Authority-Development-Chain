@@ -209,8 +209,8 @@ Use MyCrypto like from the previous class and explain to the students that in th
 
 1. Initialize nodes
 ```bash
-./geth init puppernet.json --datadir node1
-./geth init puppernet.json --datadir node2
+./geth init zbankwallet.json --datadir node1
+./geth init zbankwallet.json --datadir node2
 ```
 
 2. Launch the first node into mining mode with the following command:
