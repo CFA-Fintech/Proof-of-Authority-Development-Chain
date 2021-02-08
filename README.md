@@ -174,7 +174,7 @@ echo 'NODE2adress' >> accounts.txt
   ```
 ​
 
-2. `>zbashtestwallet` <- name of network​
+2. `>zbankwallet` <- name of network​
 
 3. Type `2` to pick the `Configure new genesis` option, then `1` to `Create new genesis from scratch`:
 ​
