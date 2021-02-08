@@ -201,6 +201,9 @@ Use MyCrypto like from the previous class and explain to the students that in th
 ![custom-node](Images/Puppeth.jpg)
 
 
+![custom-node](Images/Puppeth_Configuration.png)
+
+
 ​
 ## Starting the Blockchain
 
