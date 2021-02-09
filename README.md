@@ -267,13 +267,17 @@ Click on the "Save & Use Custom Node" button, to use the network; double-check t
 
 6. Send a transaction from the `node1` account to the `node2` account.
 
+![Send_Transaction](Images/Send_Transaction.jpg)
+
 7. Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup.
+
+![Check_TX_Status](Images/Check_TX_Status.jpg)
 
 8. The transaction is should now read Succesfull! C with the metadata (status, tx hash, block number, etc).
 
-9. Celebrate, I just created a blockchain and sent a transaction!
+![transaction-success](Images/transaction-success.png)
 
-![transaction-success](Images/Check_TX_Status.jpg)
+9. Celebrate, I just created a blockchain and sent a transaction!
 
 ### Remember, *never* share my mainnet private keys! This is a testnet, so coins have no value here!
 
