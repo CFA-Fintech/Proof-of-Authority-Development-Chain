@@ -212,6 +212,9 @@ Use MyCrypto like from the previous class and explain to the students that in th
 ./geth init zbankwallet.json --datadir node1
 ./geth init zbankwallet.json --datadir node2
 ```
+![Initialize_node1](Images/Initialize_node1.png)
+
+![Initialize_node2](Images/Initialize_node2.png)
 
 2. Launch the first node into mining mode with the following command:
 ```bash
@@ -221,12 +224,15 @@ Use MyCrypto like from the previous class and explain to the students that in th
 ```
 -  copy the entire `enode://` address (including the last `@address:port` segment) of the first node located in the `Started P2P Networking` line:
 
-![encode](Images/Encode.jpg)
+![mine_node1](Images/mine_node1.png)
 
 3. Launch second node 
 ```bash
 ./geth --datadir node2 --unlock "NODE2_address" --mine --port 30305 --bootnodes enode://YOUR_ENDCODE_FROM_NODE1 --password node2/password.txt  --allow-insecure-unlock
 ```
+
+![mine_node2](Images/mine_node2.png)
+
 ​
   **Note**: If I ever encounter strange errors, or need to start over without destroying the accounts, run the following command to clear the chain data (this will reset the `enode` addresses as well):
 ​
