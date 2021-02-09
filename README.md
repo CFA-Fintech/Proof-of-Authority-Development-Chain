@@ -212,6 +212,9 @@ Use MyCrypto like from the previous class and explain to the students that in th
 ./geth init zbankwallet.json --datadir node1
 ./geth init zbankwallet.json --datadir node2
 ```
+![Initialize_node1](Images/Initialize_node1.png)
+
+![Initialize_node2](Images/Initialize_node2.png)
 
 2. Launch the first node into mining mode with the following command:
 ```bash
@@ -221,12 +224,15 @@ Use MyCrypto like from the previous class and explain to the students that in th
 ```
 -  copy the entire `enode://` address (including the last `@address:port` segment) of the first node located in the `Started P2P Networking` line:
 
-![encode](Images/Encode.jpg)
+![mine_node1](Images/mine_node1.png)
 
 3. Launch second node 
 ```bash
 ./geth --datadir node2 --unlock "NODE2_address" --mine --port 30305 --bootnodes enode://YOUR_ENDCODE_FROM_NODE1 --password node2/password.txt  --allow-insecure-unlock
 ```
+
+![mine_node2](Images/mine_node2.png)
+
 ​
   **Note**: If I ever encounter strange errors, or need to start over without destroying the accounts, run the following command to clear the chain data (this will reset the `enode` addresses as well):
 ​
@@ -261,13 +267,17 @@ Click on the "Save & Use Custom Node" button, to use the network; double-check t
 
 6. Send a transaction from the `node1` account to the `node2` account.
 
+![Send_Transaction](Images/Send_Transaction.jpg)
+
 7. Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup.
+
+![Check_TX_Status](Images/Check_TX_Status.jpg)
 
 8. The transaction is should now read Succesfull! C with the metadata (status, tx hash, block number, etc).
 
-9. Celebrate, I just created a blockchain and sent a transaction!
+![transaction-success](Images/transaction-success.png)
 
-![transaction-success](Images/Check_TX_Status.jpg)
+9. Celebrate, I just created a blockchain and sent a transaction!
 
 ### Remember, *never* share my mainnet private keys! This is a testnet, so coins have no value here!
 
